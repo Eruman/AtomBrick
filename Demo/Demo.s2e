@@ -1,0 +1,56 @@
+{	
+	"extensionName": "Demo Sirius",
+	"description": "A Demo Extension for Arduino Set",
+	"version": "1.1",
+	"author": "Eruman(erumanrobo@gmail.com)",
+	"homepage": "https://github.com/Eruman/AtomBrick",
+	"sort":0,
+	"javascriptURL":"js/demo.js",
+  	"firmware":"1.0",
+  	"extensionPort":0,
+	"tags" : "makeblock,demo,Sirius",
+	"blockSpecs": [
+		[
+			"w",
+			"digitalWrite( %n , %d.digital )",
+			"digitalWrite",
+			"13",
+			"HIGH",
+			{
+				"setup":"pinMode({0},OUTPUT); \n",
+				"inc":"",
+				"def":"",
+				"work":"digitalWrite({0},{1});\n",
+				"loop":""
+			}
+		],
+		[
+			"w",
+			"blink",
+			"blink",
+			{
+				"setup":"",
+				"inc":"#include \"demo.h\"",
+				"def":"DemoClass demo; \n",
+				"work":"demo.blink(); \n",
+				"loop":""
+			}
+		]
+	],
+	"menus": {
+		"digital":["HIGH","LOW"]
+	},
+	"values":{
+		"HIGH":1,
+		"LOW":0
+	},
+	"translators":{
+		"en_RU":{
+			"Demo Program":"Демо",
+			"HIGH":"Высокий",
+			"LOW":"Низкий",
+			"digitalWrite( %n , %d.digital )":"Цифровая запись( %n ,%d.digital )",
+      "blink":"Мигать"
+		}
+	}
+}
