@@ -3,4 +3,4 @@ Test blocks for mBlock v.3
 
 Based on http://download.makeblock.com/mblock/mblock_extension_guide.pdf
 
-РћСЃРЅРѕРІР°РЅРѕ РЅР° РјР°С‚РµСЂРёР°Р»Р°С… http://download.makeblock.com/mblock/mblock_extension_guide.pdf
+Основано на материалах http://download.makeblock.com/mblock/mblock_extension_guide.pdf
